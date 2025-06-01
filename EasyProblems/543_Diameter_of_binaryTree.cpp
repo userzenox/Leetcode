@@ -65,7 +65,7 @@ int main() {
     delete node4;
     delete node5;
     delete node2;
-    delete node3;
+    delete  node3;
     delete root;
 
     return 0;
