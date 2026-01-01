@@ -31,4 +31,7 @@ int main() {
     for (int d : ans) {
         cout << d << " ";
     }
-    cou
+    cout << "\n";
+
+    return 0;
+}
