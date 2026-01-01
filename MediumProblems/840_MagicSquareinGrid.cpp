@@ -55,6 +55,7 @@ private:
         // Check diagonals
         int diag1 = grid[r][c] + grid[r + 1][c + 1] + grid[r + 2][c + 2];
         int diag2 = grid[r][c + 2] + grid[r + 1][c + 1] + grid[r + 2][c];
+        
         if (diag1 != 15 || diag2 != 15) return false;
 
         return true;
